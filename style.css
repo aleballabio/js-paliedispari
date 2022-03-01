@@ -21,3 +21,7 @@ select {
     margin-left: 10px;
     margin-right: 10px;
 }
+
+h2 {
+    padding-top: 20px;
+}
