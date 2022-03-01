@@ -86,8 +86,7 @@ btn.addEventListener("click", function () {
     }
 
     else if (numberOddEvenType !== OddEvensValue) {
-        OddEvensValue = "Dispari"
-        stampRisultato.innerHTML = ("Hai perso perchè" + " " + randomF + " " + "è" + " " + OddEvensValue + "!");
+        stampRisultato.innerHTML = ("Hai perso perchè" + " " + randomF + " " + "non è" + " " + OddEvensValue + "!");
     }
 })
 
